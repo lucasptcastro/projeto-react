@@ -1,0 +1,14 @@
+:root{
+    font-size: 62.5%;
+}
+
+.tarefa-container {
+    background-color: #eee;
+    margin: 0.8rem 0;
+    padding: 1.5rem 2.0rem;
+    display: flex;
+    border-radius: 01.5rem;
+    justify-content: space-between;
+    color: black;
+    align-items: center;
+}
