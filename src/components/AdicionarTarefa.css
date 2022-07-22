@@ -1,0 +1,21 @@
+:root{
+    font-size: 62.5%;
+}
+
+.adicionar-tarefa-container{
+    margin: 1.5rem 0;
+    width: 100%;
+    display: flex;
+}
+
+.adicionar-tarefa-input{
+    height: 4rem;
+    padding: 0 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    flex: 2;
+    background-color: #eee;
+    color: black;
+    font-size: 1.6rem;
+}
+

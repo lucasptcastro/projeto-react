@@ -1,0 +1,45 @@
+:root{
+  font-size: 62.5%;
+}
+
+.botao {
+    margin: auto auto;
+    margin-left: 2%;
+    padding: 1.1em 2.5em;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 4.5rem;
+    box-shadow: 0rem 0.8rem 1.5rem rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .botao:hover {
+    background-color: #e4eae9;
+    box-shadow: 0rem 1.5rem 2.0rem rgba(255, 255, 255, 0.213);
+    color: black;
+    transform: translateY(-0.7rem);
+  }
+  
+  .botao:active {
+    transform: translateY(-0.1rem);
+  }
+
+.botao-adicionar{
+  background-color: chartreuse;
+  height: 4rem;
+  padding: 0 1rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  font-size: 1.6rem;
+  color: #444;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}

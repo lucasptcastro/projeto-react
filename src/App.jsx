@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Tarefas from "./components/Tarefas";
 
 import "./App.css";
+import AdicionarTarefa from "./components/AdicionarTarefa";
 
 const App = () => {
   // const message = 'Mensagem Teste!'
@@ -31,11 +32,17 @@ const App = () => {
         title: "Treinar musculação",
         completed: true,
       },
+      {
+        id: "6",
+        title: "Assistir séries",
+        completed: true,
+      },
   ]);
 
   return (
       <>
           <div className="container">
+              <AdicionarTarefa/>
               <Tarefas tarefas={tarefas}/>
           </div>
       </>
