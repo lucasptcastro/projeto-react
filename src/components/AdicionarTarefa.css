@@ -19,3 +19,8 @@
     font-size: 1.6rem;
 }
 
+.adicionar-tarefa-botao-container{
+    margin-left: 1rem;
+    flex: 1;
+}
+
